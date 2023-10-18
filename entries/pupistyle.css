@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+html, body 
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48pt;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+body {
+    background-color:dodgerblue;
+}
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+    margin: 80px 0px 0px 0px;
+    position: static;
+}
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+    margin: 20px 0px 0px 0px;
+    position: static;
+}
+#desc {
+    margin-top: 130px;
+    font-size: 18pt;
+    width: 450px;
+    text-align: left;
+    position: absolute;
+}

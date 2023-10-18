@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+h3 {
+    font-family: "Lugrasimo";
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 36pt;
+}
+h6 {
+    font-family: "Lugrasimo";
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 14pt;
+}
+p {
+    font-family: "Lugrasimo";
+    color: blanchedalmond;
+    text-align:justify;
+    width: 600px;
+}
+#my-rep {
+    position: absolute;
+    margin-left: 300px;
+    
+
+}

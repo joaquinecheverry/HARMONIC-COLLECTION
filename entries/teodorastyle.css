@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+h1 {
+font-family: "Racing Sans One";
+font-size: 85px;
+color: yellow;
+position: relative;
+margin: 0px;
+margin-left: 14px;
+}
+#NEXT {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.next-button {
+    color: yellow;
+    font-family: "Racing Sans One";
+    font-weight: 600;
+}
+#BACK {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.back-button {
+    color: yellow;
+    font-family: "Racing Sans One";
+    font-weight: 600;
+}
+body {
+    background-color: blueviolet;
+    font-family: "Racing Sans One";
+    color: yellow;
+}
+#epiteto {
+    letter-spacing: 20px;
+    position: relative;
+    top: 0px;
+    margin-left: 18px;
+}
+#descripcion {
+    position: relative;
+    width: 400px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 40px;
+}
+.heart-container {
+    display: flex;
+    animation: moveHearts 10s linear infinite;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 250px 70px;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: 10px;
+}
+
+@keyframes moveHearts {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
