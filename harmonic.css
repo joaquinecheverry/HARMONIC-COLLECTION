@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+    font-family: "Palanquin Dark";
+    background-image: url(background\ 1920\ 1080.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  }
+#titulo {
+    text-align: center;
+    color:white;
+    mix-blend-mode: difference;
+    font-size: 82px;
+    margin: 0px;
+  }
+#subtitle {
+  text-align: center;
+  color:white;
+}
+#name {
+  text-align: center;
+  color:white;
+}
+#texto-violeta {
+    mix-blend-mode: difference;
+    z-index: 2;
+    position: relative;
+    color: cyan;
+    text-align: center;
+  }
+#bringing-down :hover {
+  letter-spacing: 20px;
+}
+#bringing-down {
+  font-size: 24px;
+  text-align: center;
+}
+#entry-container {
+  display: flex;
+  justify-content: center;
+}
+#entradas a{
+    height: 110px;
+    width: 80px;
+    margin: 0 10px;
+    background-color: #d9d9d9;
+    color: #d9d9d9;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    mix-blend-mode: luminosity;
+}
+#entradas {
+    position: absolute ;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#entradas a:hover {
+    background-color: #ff7a00;
+}
